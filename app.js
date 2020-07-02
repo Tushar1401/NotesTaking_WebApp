@@ -41,7 +41,7 @@ function showNotes() {
           <div class="card-body">
               <h5 class="card-title">${element.title}</h5>
               <p class="card-text">${element.text}</p>
-              <button id="${index}" onClick="deleteNote(this.id)" class="btn btn-primary">Delete Note</button>
+              <button id="${index}" onClick="deleteNote(this.id)" class="btn btn-primary" style="background-color: rgb(0, 87, 248)">Delete Note</button>
           </div>
         </div>
        `
